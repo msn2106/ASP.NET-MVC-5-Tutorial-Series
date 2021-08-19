@@ -1,0 +1,14 @@
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\bin\Debug\WebAppDB.dll.config
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\bin\Debug\WebAppDB.dll
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\bin\Debug\WebAppDB.pdb
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\bin\Debug\EntityFramework.dll
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\bin\Debug\EntityFramework.xml
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\obj\Debug\WebAppDB.csproj.AssemblyReference.cache
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\obj\Debug\WebAppDB.csproj.CoreCompileInputs.cache
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\obj\Debug\WebAppDB.csproj.CopyComplete
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\obj\Debug\WebAppDB.dll
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\obj\Debug\WebAppDB.pdb
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\bin\Debug\WebApp.Model.dll
+C:\Users\MS Official\source\repos\WebApp1\WebAppDB\bin\Debug\WebApp.Model.pdb
