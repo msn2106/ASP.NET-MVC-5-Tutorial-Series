@@ -1,0 +1,35 @@
+﻿@model PartialView1.Models.Employee
+
+<!-- Below way is the static Partial View -->
+<!--<div class="row" style="border:solid 1px">
+    <div class="col-lg-6">
+        <h2>Name - Mayank</h2>
+        <p>Id - 1</p>
+        <p>Email - email</p>
+    </div>
+    <div class="col-lg-6">
+        <p>
+            Description - Description
+        </p>
+    </div>
+</div>
+
+<h2>Hello from Partial View Updated</h2>-->
+
+@*Partial View is used to reuse same code on different pages.
+    If we want to write same code on a single page, we can do that using for loop,
+    but when you have to show same/similar thing on different pages. Partial view is the deal.*@
+
+<!-- Below way is the Dynamic Partial View -->
+<div class="row" style="border:solid 1px">
+    <div class="col-lg-6">
+        <h2>Name - @Model.Name</h2>
+        <p>Id - @Model.Id</p>
+        <p>Email - @Model.Email</p>
+    </div>
+    <div class="col-lg-6">
+        <p>
+            Description - @Model.Description
+        </p>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+﻿@model  IEnumerable<PartialView1.Models.Employee>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Index Page</h1>
+
+@foreach (var item in Model)
+{
+    @*@Html.Partial("_Card",item)*@
+    Html.RenderPartial("_Card", item);
+
+}
+
+<!-- This is the way to write RenderPartial, unlike Partial it needs @@{ Here ;}  -->
+@*@{ Html.RenderPartial("_Card");}*@
+
+<!-- For Static Partial View-->
+@*@for(int i = 0; i < n; i++)
+{
+    @Html.Partial("_Card")
+}
+
+<hr />
+
+@Html.Partial("_Card")
+    *@
+
+@* RenderPartial returns void and is directly written in output stream thus is faster
+    Partial return MvcHtmlString and it can be assigned to a variable unlike RenderPartial
+    Partial is used when you have to draw value from controller and perform some operations in the view
+    RenderPartial cannot be assigned to variable and is used when plain results are to be displayed in output*@
+
+@* In output there is no difference in both.*@
